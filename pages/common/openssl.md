@@ -3,13 +3,13 @@
 > OpenSSL cryptographic toolkit.
 > More information: <https://www.openssl.org>.
 
-- Print a list of available subcommands:
+- Print a list of standard commands:
 
-`openssl help`
+`openssl list-standard-commands`
 
-- Print options for a specific subcommand:
+- Type in a password and it will output generated hashed password:
 
-`openssl help {{x509}}`
+`openssl passwd`
 
 - Print the version of OpenSSL:
 
